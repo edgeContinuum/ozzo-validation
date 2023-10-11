@@ -1,6 +1,6 @@
 # ozzo-validation
 
-### This repo is a fork of: github.com/go-ozzo/ozzo-validation
+### This repo is a fork of: [go-ozzo/ozzo-validation](https://github.com/go-ozzo/ozzo-validation)
 
 ## Description
 

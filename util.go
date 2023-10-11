@@ -91,7 +91,6 @@ func ToFloat(value interface{}) (float64, error) {
 
 // IsEmpty checks if a value is empty or not.
 // A value is considered empty if
-// - integer, float: zero
 // - bool: false
 // - string, array: len() == 0
 // - slice, map: nil or len() == 0
@@ -103,12 +102,6 @@ func IsEmpty(value interface{}) bool {
 		return v.Len() == 0
 	case reflect.Bool:
 		return !v.Bool()
-	case reflect.Int, reflect.Int8, reflect.Int16, reflect.Int32, reflect.Int64:
-		return v.Int() == 0
-	case reflect.Uint, reflect.Uint8, reflect.Uint16, reflect.Uint32, reflect.Uint64, reflect.Uintptr:
-		return v.Uint() == 0
-	case reflect.Float32, reflect.Float64:
-		return v.Float() == 0
 	case reflect.Invalid:
 		return true
 	case reflect.Interface, reflect.Ptr:
