@@ -4,10 +4,11 @@ import (
 	"context"
 	"errors"
 	"fmt"
-	validation "github.com/gti-uvigo/ozzo-validation/v5"
 	"regexp"
 
-	"github.com/gti-uvigo/ozzo-validation/v5/is"
+	validation "github.com/edgeContinuum/ozzo-validation/v5"
+
+	"github.com/edgeContinuum/ozzo-validation/v5/is"
 )
 
 type Address struct {
