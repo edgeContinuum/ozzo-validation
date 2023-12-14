@@ -1,4 +1,4 @@
-module github.com/gti-uvigo/ozzo-validation/v5
+module github.com/edgeContinuum/ozzo-validation/v5
 
 go 1.13
 

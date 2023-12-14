@@ -35,7 +35,7 @@ or `validation.ValidateStruct()` to validate the value.
 Run the following command to install the package:
 
 ```
-go get github.com/gti-uvigo/ozzo-validation/v5
+go get github.com/edgeContinuum/ozzo-validation/v5
 ```
 
 ### Validating a Simple Value
@@ -48,8 +48,8 @@ package main
 import (
 	"fmt"
 
-	"github.com/gti-uvigo/ozzo-validation/v5"
-	"github.com/gti-uvigo/ozzo-validation/v5/is"
+	"github.com/edgeContinuum/ozzo-validation/v5"
+	"github.com/edgeContinuum/ozzo-validation/v5/is"
 )
 
 func main() {
